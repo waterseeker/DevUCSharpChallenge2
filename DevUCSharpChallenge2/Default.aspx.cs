@@ -27,5 +27,19 @@ namespace DevUCSharpChallenge2
 
             resultLabel.Text = userSumString;
         }
+
+        protected void subtractionButton_Click(object sender, EventArgs e)
+        {
+            string firstInputString = firstValueTextBox.Text;
+            int parsedFirstInputString = int.Parse(firstInputString);
+
+            string secondInputString = secondValueTextBox.Text;
+            int parsedSecondInputString = int.Parse(secondInputString);
+
+            int userDifference = parsedFirstInputString - parsedSecondInputString;
+            string userDifferenceString = userDifference.ToString();
+
+            resultLabel.Text = userDifferenceString;
+        }
     }
 }

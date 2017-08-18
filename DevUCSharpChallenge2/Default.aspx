@@ -19,7 +19,7 @@
             <br />
             <asp:Button ID="additionButton" runat="server" OnClick="additionButton_Click" Text="+" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="subtractionButton" runat="server" style="margin-left: 0px" Text="-" />
+            <asp:Button ID="subtractionButton" runat="server" OnClick="subtractionButton_Click" style="margin-left: 0px" Text="-" />
 &nbsp;&nbsp;&nbsp;
             <asp:Button ID="multiplicationButton" runat="server" Text="*" />
 &nbsp;&nbsp;&nbsp;
