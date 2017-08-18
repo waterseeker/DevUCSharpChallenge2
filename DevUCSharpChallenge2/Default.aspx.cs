@@ -41,5 +41,33 @@ namespace DevUCSharpChallenge2
 
             resultLabel.Text = userDifferenceString;
         }
+
+        protected void multiplicationButton_Click(object sender, EventArgs e)
+        {
+            string firstInputString = firstValueTextBox.Text;
+            int parsedFirstInputString = int.Parse(firstInputString);
+
+            string secondInputString = secondValueTextBox.Text;
+            int parsedSecondInputString = int.Parse(secondInputString);
+
+            int userProduct = parsedFirstInputString * parsedSecondInputString;
+            string userProductString = userProduct.ToString();
+
+            resultLabel.Text = userProductString;
+        }
+
+        protected void divisionButton_Click(object sender, EventArgs e)
+        {
+            string firstInputString = firstValueTextBox.Text;
+            int parsedFirstInputString = int.Parse(firstInputString);
+
+            string secondInputString = secondValueTextBox.Text;
+            int parsedSecondInputString = int.Parse(secondInputString);
+
+            int userQuotient = parsedFirstInputString / parsedSecondInputString;
+            string userQuotientString = userQuotient.ToString();
+
+            resultLabel.Text = userQuotientString;
+        }
     }
 }

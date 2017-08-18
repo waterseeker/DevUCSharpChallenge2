@@ -21,9 +21,9 @@
 &nbsp;&nbsp;&nbsp;
             <asp:Button ID="subtractionButton" runat="server" OnClick="subtractionButton_Click" style="margin-left: 0px" Text="-" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="multiplicationButton" runat="server" Text="*" />
+            <asp:Button ID="multiplicationButton" runat="server" OnClick="multiplicationButton_Click" Text="*" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="divisionButton" runat="server" Text="/" />
+            <asp:Button ID="divisionButton" runat="server" OnClick="divisionButton_Click" Text="/" />
             <br />
             <br />
         </div>
